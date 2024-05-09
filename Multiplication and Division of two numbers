@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+    int a , b , mul , d;
+    printf("Enter the two numbers : ");
+    scanf("%d %d",&a,&b);
+   mul = a * b;
+   d = a / b;
+   printf("Multiplication and division of two numbers : %d*%d = %d and %d/%d = %d",a,b,mul,a,b,d);
+}
