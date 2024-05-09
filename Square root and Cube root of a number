@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+    int a , s , c;
+    printf("Enter the number : ");
+    scanf("%d",&a);
+  s = a*a;
+  c = a*a*a;
+  
+   printf("Square and cube roots are : %d and %d",s,c);
+}
